@@ -22,14 +22,14 @@ export function ContextMedia({ resource, variant, onReady, className }: { resour
   const opener = useRef<HTMLButtonElement>(null);
   const dialog = useNativeBookingDialog({ triggerRef: opener });
   const compact = variant === 'compact';
-  const frame = compact ? 'h-[104px] w-full sm:h-[128px]' : variant === 'ritual' ? 'aspect-[4/3] w-full' : 'aspect-[4/3] w-full md:aspect-[16/10]';
+  const frame = compact ? 'h-[96px] w-full sm:h-[128px]' : variant === 'ritual' ? 'aspect-[4/3] w-full' : 'aspect-[4/3] w-full md:aspect-[16/10]';
   return <figure className={cn('min-w-0', className)}>
     <VerifiedBookingMedia resource={resource} containerClassName={cn('relative grid min-h-0 place-items-center bg-[var(--brand-surface)]', frame)} className="absolute inset-0 h-full w-full object-contain object-center"
       onReady={(current, ready) => { if (current) onReady?.(current, ready); }}
       onDispose={current => { if (current) onReady?.(current, false); }}
       renderPending={<span role="status" className="p-3 text-sm">Cargando fotografía…</span>}
       renderError={({ retry }) => <div role="alert" className="flex h-full w-full flex-col items-start justify-center gap-1 p-2 text-sm leading-4"><span>Fotografía no disponible.</span><button type="button" onClick={retry} className={cn(textLinkClass, 'text-sm')}><RefreshCw size={14} aria-hidden="true" /> Reintentar imagen</button></div>} />
-    <button ref={opener} type="button" onClick={dialog.open} className={cn(textLinkClass, 'min-h-8 text-xs')}>Ver fotografía completa <ArrowRight size={12} aria-hidden="true" /></button>
+    <button ref={opener} type="button" onClick={dialog.open} aria-label="Ver fotografía completa" className={cn(textLinkClass, 'min-h-8 text-xs')}>Foto completa <ArrowRight size={12} aria-hidden="true" /></button>
     {!compact && <PhotoCredit />}
     <dialog ref={dialog.dialogRef} aria-label="Fotografía completa de suadero en comal" className="m-auto w-[min(92vw,960px)] max-w-none rounded-[var(--brand-radius)] border border-[var(--brand-text)] bg-[var(--brand-background)] p-4 text-[var(--brand-text)] backdrop:bg-black/65 sm:p-6">
       <div className="mb-3 flex items-center justify-between gap-3"><h2 className="font-[family-name:var(--brand-font-heading)] text-xl">Suadero en comal</h2><Action secondary onClick={() => dialog.close()} aria-label="Cerrar fotografía"><X size={18} aria-hidden="true" /></Action></div>

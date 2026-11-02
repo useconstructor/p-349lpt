@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body>{children}<script src={"https://api.useconstructor.com/v1/projects/P-349LPT/analytics/script.js"} defer></script></body>
+      <body>{children}<script src="/constructor-analytics.js" defer></script></body>
     </html>
   );
 }
