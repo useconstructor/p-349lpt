@@ -15,7 +15,7 @@ export const Action = forwardRef<HTMLButtonElement, ButtonHTMLAttributes<HTMLBut
 });
 
 export function PhotoCredit({ className }: { className?: string }) {
-  return <p className={cn('text-xs leading-4 text-[var(--brand-muted)]', className)}>Suadero en comal: <a className="underline underline-offset-2" href="https://commons.wikimedia.org/wiki/File:Tacos_de_suadero.jpg" target="_blank" rel="noreferrer">Pedro Sanchez</a> · <a className="underline underline-offset-2" href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noreferrer">CC BY SA 3.0</a>. Encuadre adaptable; fotografía de referencia, no del establecimiento.</p>;
+  return <p className={cn('text-xs leading-4 text-[var(--brand-muted)]', className)}>Suadero en comal: <a className="underline underline-offset-2" href="https://commons.wikimedia.org/wiki/File:Tacos_de_suadero.jpg" target="_blank" rel="noreferrer">Pedro Sanchez</a> · <a className="underline underline-offset-2" href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noreferrer">CC BY SA 3.0</a>. Imagen completa, sin recorte; fotografía de referencia, no del establecimiento.</p>;
 }
 
 export function ContextMedia({ resource, variant, onReady, className }: { resource: Resource; variant: 'hero' | 'compact' | 'ritual'; onReady?: (resource: Resource, ready: boolean) => void; className?: string }) {
@@ -24,7 +24,7 @@ export function ContextMedia({ resource, variant, onReady, className }: { resour
   const compact = variant === 'compact';
   const frame = compact ? 'h-[104px] w-full sm:h-[128px]' : variant === 'ritual' ? 'aspect-[4/3] w-full' : 'aspect-[4/3] w-full md:aspect-[16/10]';
   return <figure className={cn('min-w-0', className)}>
-    <VerifiedBookingMedia resource={resource} containerClassName={cn('relative grid overflow-hidden rounded-t-[42%_18%] place-items-center bg-[var(--brand-surface)]', frame)} className="h-full w-full object-cover object-center"
+    <VerifiedBookingMedia resource={resource} containerClassName={cn('relative grid min-h-0 place-items-center bg-[var(--brand-surface)]', frame)} className="absolute inset-0 h-full w-full object-contain object-center"
       onReady={(current, ready) => { if (current) onReady?.(current, ready); }}
       onDispose={current => { if (current) onReady?.(current, false); }}
       renderPending={<span role="status" className="p-3 text-sm">Cargando fotografía…</span>}
