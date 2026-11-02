@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320" role="img" aria-labelledby="title desc">
+<title id="title">Quesadilla de maíz</title>
+<desc id="desc">Dibujo original de una tortilla doblada con queso fundido sobre un plato de barro.</desc>
+<rect width="480" height="320" fill="#FFF7DD"/>
+<ellipse cx="241" cy="249" rx="178" ry="33" fill="#163C2D" opacity=".12"/>
+<ellipse cx="240" cy="208" rx="190" ry="81" fill="#B72D24"/>
+<ellipse cx="240" cy="202" rx="166" ry="64" fill="#FFF7DD" stroke="#163C2D" stroke-width="3"/>
+<path d="M100 208Q229 39 376 203Q251 269 100 208Z" fill="#F2BF4B" stroke="#163C2D" stroke-width="4" stroke-linejoin="round"/>
+<path d="M107 211Q225 226 371 207L359 225Q319 241 289 241L284 255Q278 263 272 253L269 245Q233 251 204 243L199 260Q194 268 189 258L187 243Q141 238 112 222Z" fill="#FFF7DD" stroke="#163C2D" stroke-width="3"/>
+<path d="M101 206Q231 70 375 204Q239 243 101 206Z" fill="#F2BF4B" stroke="#163C2D" stroke-width="4"/>
+<path d="M120 199Q230 93 354 197" fill="none" stroke="#FFF7DD" stroke-width="5" stroke-linecap="round"/>
+<g fill="#B72D24" opacity=".7">
+<ellipse cx="182" cy="174" rx="11" ry="4" transform="rotate(-24 182 174)"/>
+<ellipse cx="234" cy="149" rx="8" ry="4"/>
+<ellipse cx="285" cy="177" rx="12" ry="4" transform="rotate(20 285 177)"/>
+<ellipse cx="222" cy="205" rx="10" ry="3"/>
+<circle cx="151" cy="197" r="3"/><circle cx="266" cy="201" r="3"/><circle cx="314" cy="197" r="3"/>
+</g>
+<path d="M331 252L367 233Q386 256 354 268Z" fill="#163C2D"/>
+<path d="M340 253L366 241" stroke="#FFF7DD" stroke-width="3"/>
+<path d="M192 90Q180 77 193 63M240 79Q228 65 241 49M286 92Q274 80 287 66" fill="none" stroke="#163C2D" stroke-width="3" stroke-linecap="round" opacity=".5"/>
+</svg>

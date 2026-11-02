@@ -1,0 +1,1022 @@
+{
+  "tone": "energetic",
+  "fontBody": "Source Sans 3",
+  "logoText": "Comal Vivo",
+  "brandbook": {
+    "motif": "El borde del comal se convierte en una línea de servicio verde con un marcador circular abierto. Agrupa controles, selección y resultado en un borde compartido; el maíz señala la elección activa. No usar óvalos gigantes vacíos, sellos de éxito inventados ni ilustraciones de asientos que sugieran capacidad física no verificada.",
+    "pages": [
+      {
+        "id": "brand-page-1",
+        "title": "Brand guidelines",
+        "layout": "cover",
+        "summary": "Propuesta original para una taquería mexicana ficticia en Roma Norte, Ciudad de México. El comal es el punto de reunión: carta clara, comida reconocible y una reserva de mesa sencilla.",
+        "examples": [
+          {
+            "text": "Comal Vivo",
+            "title": "El fuego reúne."
+          },
+          {
+            "text": "Use the complete symbol on an ivory support surface. Keep the photograph unobstructed and the headline clear of the tacos.",
+            "title": "Cover composition"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-2",
+        "title": "The Brand",
+        "layout": "divider",
+        "summary": "Use Chile Heat for this divider, with ivory typography and one generous margin. Introduce the central idea through the comal, not stock Mexican ornament or a collage of dishes.",
+        "examples": [
+          {
+            "text": "Una carta para explorar. Una mesa para reunirnos.",
+            "title": "Alrededor del comal"
+          },
+          {
+            "text": "Place Comal Vivo above the section title. Use one service line beneath the copy; omit promotional badges.",
+            "title": "Divider rule"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-3",
+        "title": "Welcome",
+        "layout": "content",
+        "summary": "This guide presents an original identity proposed for this project, with examples of its visual and editorial use.",
+        "examples": [
+          {
+            "text": "Rules are in English; customer-facing specimens are in Mexican Spanish. Preserve the exact business name: Comal Vivo.",
+            "title": "Reader note"
+          },
+          {
+            "text": "Negocio ficticio. Ubicación y precios de ejemplo.",
+            "title": "Public disclosure"
+          },
+          {
+            "text": "The supplied photo reference requires source and license confirmation before use. Design studies do not establish implemented website features.",
+            "title": "Evidence boundary"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-4",
+        "title": "Index",
+        "layout": "content",
+        "summary": "Read the guide from identity to application. Keep this index as a short editorial list with aligned page ranges, not a grid of previews.",
+        "examples": [
+          {
+            "text": "Cover, brand, welcome, index, definition, intent, values, voice and the logo system.",
+            "title": "01–15 · Foundation and logo"
+          },
+          {
+            "text": "Typography, hierarchy, layouts, palette, tints, graphic elements, icons, photography and moodboard.",
+            "title": "16–29 · Visual language"
+          },
+          {
+            "text": "Social, print, packaging, conceptual location, reservations, website, small-format identity and guest support.",
+            "title": "30–49 · Design studies"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-5",
+        "title": "Defining",
+        "layout": "content",
+        "summary": "Choose “El comal reúne”: food dominates, expressive lettering introduces the name, and a green service line connects useful information. Reject card grids and empty oversized oval frames.",
+        "examples": [
+          {
+            "text": "Conoce el menú y elige un turno para reunir de 1 a 8 personas.",
+            "title": "El fuego reúne."
+          },
+          {
+            "text": "Let the actual comal and food supply the circular gesture. Put Ver menú and Reservar mesa in a separate strip below the image.",
+            "title": "Composition decision"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-6",
+        "title": "Vision & Mission",
+        "layout": "content",
+        "summary": "Treat vision and mission as project intentions, not claims about a real company. Express gathering through composition and hospitality through clear, useful language.",
+        "examples": [
+          {
+            "text": "Comal Vivo imagina una taquería alrededor del comal: una carta breve y una mesa como punto de encuentro.",
+            "title": "Concept story"
+          },
+          {
+            "text": "Connect three tasks without promotional detours: discover the menu, choose Mesa and review the reservation before saving.",
+            "title": "Editorial purpose"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-7",
+        "title": "Brand Values",
+        "layout": "content",
+        "summary": "Use warmth, clarity and honesty as design principles for this concept. Demonstrate them through readable prices, recognizable food and accurate reservation states rather than unsupported claims.",
+        "examples": [
+          {
+            "text": "Elige tu turno. Después te pediremos tus datos.",
+            "title": "Warmth"
+          },
+          {
+            "text": "Mesa · De 1 a 8 personas",
+            "title": "Clarity"
+          },
+          {
+            "text": "Revisar tus datos no aparta lugares.",
+            "title": "Honesty"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-8",
+        "title": "Tone of Voice",
+        "layout": "content",
+        "summary": "Write short, warm Mexican Spanish. Use direct verbs and sentence case; avoid caricatured slang, exaggerated urgency, invented reviews and claims of real-world service.",
+        "examples": [
+          {
+            "text": "Ver menú · Reservar mesa · Mis reservas",
+            "title": "Navigation"
+          },
+          {
+            "text": "Este turno ya no tiene lugares suficientes. Conservamos tu selección para que elijas otro.",
+            "title": "Helpful conflict"
+          },
+          {
+            "text": "Negocio ficticio. Ubicación y precios de ejemplo.",
+            "title": "Quiet disclosure"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-9",
+        "title": "Logo",
+        "layout": "divider",
+        "summary": "Introduce the logo chapter on Golden Maize #F2BF4B. Use green typography, an ivory support beneath the full-color symbol and enough empty space to reveal its open geometry.",
+        "examples": [
+          {
+            "text": "El fuego reúne.",
+            "title": "Comal Vivo"
+          },
+          {
+            "text": "Show the name and symbol as separate elements. Do not turn this divider into a collection of decorative logo stamps.",
+            "title": "Study presentation"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-10",
+        "title": "Logo overview",
+        "layout": "logo",
+        "summary": "The proposed system combines a typeset name with an original open-comal symbol. Expressive lettering is an art direction for a separate wordmark study, not text embedded in the supplied symbol.",
+        "examples": [
+          {
+            "text": "Set Comal Vivo in Bricolage Grotesque 700. Preserve spelling, capitalization and open counters.",
+            "title": "Name treatment"
+          },
+          {
+            "text": "A future drawn wordmark may use broad painted strokes and lightly beveled terminals; keep Comal stable and Vivo subtly rising.",
+            "title": "Lettering direction"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-11",
+        "title": "Primary logo",
+        "layout": "logo",
+        "summary": "Use a horizontal lockup in desktop mastheads and a compact arrangement where width is limited. Keep the symbol vertically centered beside the name and render the name in real typography.",
+        "examples": [
+          {
+            "text": "Pair a 48 px symbol with Comal Vivo at 32 px/36 px, weight 700. Leave 12 px between them.",
+            "title": "Desktop masthead"
+          },
+          {
+            "text": "Pair a 32 px symbol with Comal Vivo at 24 px/28 px. Keep navigation outside the lockup’s clear space.",
+            "title": "Compact masthead"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-12",
+        "title": "Logo Safezone",
+        "layout": "logo",
+        "summary": "Define x as one eighth of the symbol’s displayed width. Leave at least x around the complete lockup and 2x between it and a photograph, page trim or unrelated graphic.",
+        "examples": [
+          {
+            "text": "Here x = 6 px. Keep at least 6 px clear around the lockup and 12 px from the nearest image edge.",
+            "title": "48 px symbol"
+          },
+          {
+            "text": "At a 24 mm symbol width, x = 3 mm. Keep the Comal Vivo lockup at least 6 mm inside the trimmed edge.",
+            "title": "Print placement"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-13",
+        "title": "Color combinations",
+        "layout": "colors",
+        "summary": "Prefer green name typography on ivory. On green, chile or maize fields, retain the full symbol on an ivory support surface; do not recolor individual pieces to rescue contrast.",
+        "examples": [
+          {
+            "text": "Comal Vivo in #163C2D beside the original multicolor symbol on #FFF7DD.",
+            "title": "Ivory application"
+          },
+          {
+            "text": "Comal Vivo in #FFF7DD on #163C2D; place the unchanged symbol on an ivory support with its safezone intact.",
+            "title": "Dark application"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-14",
+        "title": "Brandmark",
+        "layout": "logo",
+        "summary": "The open green ring suggests a comal; the chile flame adds energy and the maize dot suggests a selected gathering point. Preserve the full 160 × 160 geometry and its open right edge.",
+        "examples": [
+          {
+            "text": "Use the symbol alone for the favicon and social avatar, with Comal Vivo written nearby in the surrounding interface.",
+            "title": "Compact signature"
+          },
+          {
+            "text": "Prefer at least 32 px digitally or 10 mm in print. Reserve 16 px for favicon use, retaining the complete drawing.",
+            "title": "Minimum use"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-15",
+        "title": "Logo misuse",
+        "layout": "logo",
+        "summary": "Never stretch, rotate, crop or texture the logo. Do not replace the flame, close the ring, add a sombrero or turn the symbol into a certification seal.",
+        "examples": [
+          {
+            "text": "Do not place Comal Vivo across the tacos, squeeze the lockup into a narrow button or add a shadow to its letters.",
+            "title": "Avoid"
+          },
+          {
+            "text": "Move the lockup to clear ivory space and reduce its size proportionally. Keep the full symbol visible on colored fields.",
+            "title": "Use instead"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-16",
+        "title": "Typography",
+        "layout": "divider",
+        "summary": "Introduce typography with a large Bricolage Grotesque headline and a short Source Sans 3 passage. Keep expressive display type separate from task-critical form text.",
+        "examples": [
+          {
+            "text": "Explora la carta y encuentra un turno para tu mesa.",
+            "title": "El fuego reúne."
+          },
+          {
+            "text": "Set the headline at 700 and supporting copy at 400. Use ivory and green without texture inside letterforms.",
+            "title": "Divider setting"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-17",
+        "title": "Typography overview",
+        "layout": "type",
+        "summary": "Use Bricolage Grotesque for headlines and Source Sans 3 for reading, prices and controls. Supplied font files cover weights 400–700; retain Spanish accents and punctuation.",
+        "examples": [
+          {
+            "text": "Elige Mesa, fecha, turno y número de personas.",
+            "title": "Una mesa para reunirnos"
+          },
+          {
+            "text": "Bricolage gives Comal Vivo its expressive rhythm; Source Sans 3 keeps Menú, teléfono and revisión clear at small sizes.",
+            "title": "Family pairing"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-18",
+        "title": "Primary typeface",
+        "layout": "type",
+        "summary": "Set principal headlines in Bricolage Grotesque 700 with natural proportions and open counters. Use tight but unforced line breaks; do not imitate brush lettering with artificial italics.",
+        "examples": [
+          {
+            "text": "Comal Vivo · Roma Norte, Ciudad de México",
+            "title": "El fuego reúne."
+          },
+          {
+            "text": "Use 88–112 px on desktop and 44–52 px on mobile. Keep the exact headline punctuation and avoid stretching to fill a line.",
+            "title": "Display rule"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-19",
+        "title": "Typography",
+        "layout": "type",
+        "summary": "Use weight 700 for headings, 600 for buttons and labels, 500 for short emphasis and 400 for body copy. Use upright styles; avoid synthetic bold, fake italics and all-caps paragraphs.",
+        "examples": [
+          {
+            "text": "Comprueba tus datos antes de guardar. La revisión no aparta lugares.",
+            "title": "Revisar tu reserva"
+          },
+          {
+            "text": "Set the heading in Bricolage 700, Guardar reserva in Source Sans 3 600 and its explanation in Source Sans 3 400.",
+            "title": "Weight in context"
+          },
+          {
+            "text": "Use Source Sans 3 500 for Mesa within a sentence. Do not make every value bold; let spacing establish the grouping.",
+            "title": "Emphasis"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-20",
+        "title": "Supporting type",
+        "layout": "type",
+        "summary": "Use Source Sans 3 at 16–18 px for body text and form controls. Keep labels visible, step labels exactly 14 px and credits at 12–14 px. Never substitute placeholders for labels.",
+        "examples": [
+          {
+            "text": "Nombre · Email · Teléfono · Notas opcionales",
+            "title": "Tus datos"
+          },
+          {
+            "text": "Use 24–28 px body line height and left alignment. Keep error text directly below its field, not in a distant banner alone.",
+            "title": "Reading rhythm"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-21",
+        "title": "Hierarchy",
+        "layout": "type",
+        "summary": "Build hierarchy with scale before color. Interior headings use 32–56 px; body and controls use 16–18 px. Keep one dominant title per view and one clearly ranked primary action.",
+        "examples": [
+          {
+            "text": "Mesa y turno → Tus datos → Revisar",
+            "title": "Reservar mesa"
+          },
+          {
+            "text": "Use a 40 px title, 14 px step labels, 16 px controls and 12–14 px disclosure. The next available turn must remain easy to discover.",
+            "title": "Reservation hierarchy"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-22",
+        "title": "Layouts",
+        "layout": "applications",
+        "summary": "Use spacing tokens of 4, 8, 12, 16, 24, 32, 48 and 64 px. Align title and scene at the top; give actions their own lower strip. Recompose tablet layouts before columns become cramped.",
+        "examples": [
+          {
+            "text": "Seis ejemplos para conocer la carta de Comal Vivo.",
+            "title": "Ver menú"
+          },
+          {
+            "text": "Use 64 px outer margins on desktop, 32 px on tablet and 16 px on mobile. Present menu entries as a flowing printed carta, not cards.",
+            "title": "Editorial structure"
+          },
+          {
+            "text": "At 390 × 600, keep Mesa and the next available turn discoverable on arrival. Use compact context imagery and normal page scroll.",
+            "title": "Mobile task space"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-23",
+        "title": "Colors",
+        "layout": "divider",
+        "summary": "Use Warm Paper as the dominant canvas, Comal Ink for structure and Chile Heat for action. Golden Maize marks selection; Quiet Sage supports secondary information without becoming faint.",
+        "examples": [
+          {
+            "text": "Green headline on ivory paper, with a chile Reservar mesa action below the photograph.",
+            "title": "El fuego reúne."
+          },
+          {
+            "text": "Keep photography natural. Do not apply the brand palette as a filter over the suadero reference.",
+            "title": "Color discipline"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-24",
+        "title": "Colors overview",
+        "layout": "colors",
+        "summary": "Preserve all five supplied hex values exactly. Background: #FFF7DD; surface: #F2BF4B; accent: #B72D24; text: #163C2D; muted: #59634E. Maize surfaces are accents, not every content block.",
+        "examples": [
+          {
+            "text": "Use Comal Ink or Quiet Sage on Warm Paper. Use Warm Paper text on Chile Heat primary buttons.",
+            "title": "Reading pairings"
+          },
+          {
+            "text": "Show a chosen turn on Golden Maize with Comal Ink text, a visible outline and a textual selected state.",
+            "title": "Selection pairing"
+          },
+          {
+            "text": "Do not use ivory text on maize or chile text on green. Never communicate availability through color alone.",
+            "title": "Avoid weak pairings"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-25",
+        "title": "Using Tints",
+        "layout": "colors",
+        "summary": "Keep identity colors solid in logos and controls. Tints may soften editorial separators on ivory, but must not replace readable text, focus outlines or availability states.",
+        "examples": [
+          {
+            "text": "Apply an original fine green grain at no more than 3% opacity over ivory. Exclude photographs, the logo and form controls.",
+            "title": "Paper texture"
+          },
+          {
+            "text": "A 15% green rule may separate menu entries. Keep dish names, prices and the service line in full-strength ink.",
+            "title": "Quiet separator"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-26",
+        "title": "Graphic Elements",
+        "layout": "divider",
+        "summary": "Extend the comal into a green service line with an open circular marker. Use it to connect selection, review and confirmed result, not as ornament around every paragraph.",
+        "examples": [
+          {
+            "text": "Mesa · fecha elegida · turno elegido · personas",
+            "title": "Selection line"
+          },
+          {
+            "text": "Move the marker only after an explicit turn choice, over 160 ms. With reduced motion, change position instantly and retain the same announcement.",
+            "title": "Signature interaction"
+          },
+          {
+            "text": "Keep a full turn selected and visibly unavailable. Do not move the marker to a different turn without the visitor choosing it.",
+            "title": "Conflict behavior"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-27",
+        "title": "Icons",
+        "layout": "content",
+        "summary": "Use a coherent 24 px icon family with 2 px strokes and open forms. Pair task icons with visible labels; reserve the original flame-and-comal drawing for identity, not every control.",
+        "examples": [
+          {
+            "text": "Calendar: Reservar mesa. List: Mis reservas. Refresh arrow: Recargar.",
+            "title": "Navigation labels"
+          },
+          {
+            "text": "Place a 24 px icon inside a target at least 44 × 44 px. Label the mobile navigation control Abrir menú.",
+            "title": "Control sizing"
+          },
+          {
+            "text": "Use a check with Guardada and a clear text label for Cancelada. Avoid seat diagrams that imply a verified physical seating plan.",
+            "title": "State clarity"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-28",
+        "title": "Photography",
+        "layout": "applications",
+        "summary": "Use the suadero reference only for suadero or culinary context, after source and license confirmation. Preserve its honest framing; use five distinct original illustrations for the other menu items.",
+        "examples": [
+          {
+            "text": "Fotografía de referencia de suadero e ilustraciones conceptuales. Las imágenes no documentan productos de un local real.",
+            "title": "Image caption"
+          },
+          {
+            "text": "Let food fill the available scene without an empty oval frame. Use sharp local assets near 2× display size; never enlarge an inadequate source.",
+            "title": "Image treatment"
+          },
+          {
+            "text": "Link the source and CC BY-SA 3.0 beside the credit to Pedro Sanchez once confirmed. Name actual adaptations and retain share-alike terms for adapted images.",
+            "title": "Credit treatment"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-29",
+        "title": "Moodboard",
+        "layout": "applications",
+        "summary": "Build one coherent board from an ivory printed carta, broad painted letterforms, recognizable food and the green service line. Avoid unrelated folklore, generic neon and fabricated venue photography.",
+        "examples": [
+          {
+            "text": "Dominant food, an expressive name and a practical service margin form the chosen direction.",
+            "title": "El comal reúne"
+          },
+          {
+            "text": "Pastor: red meat and pineapple. Nopal: green cactus strips. Quesadilla: folded tortilla and visible cheese. Keep each silhouette distinct.",
+            "title": "Illustration family"
+          },
+          {
+            "text": "Rótulo de esquina contributes lettering; Carta de sobremesa contributes menu rhythm. Neither replaces the food-led composition.",
+            "title": "Other studies"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-30",
+        "title": "Applications",
+        "layout": "divider",
+        "summary": "All following applications are design studies, not evidence of production or implemented features. Carry the same name, paper, typography and service line from public discovery into private reservations.",
+        "examples": [
+          {
+            "text": "El fuego reúne. Conoce la carta y elige tu mesa.",
+            "title": "Comal Vivo"
+          },
+          {
+            "text": "Use one dominant message per surface. Keep secondary information on a green baseline rather than inside repeated promotional cards.",
+            "title": "Shared system"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-31",
+        "title": "Social media icons",
+        "layout": "logo",
+        "summary": "Design study: center the unchanged symbol on ivory within a square avatar. Leave enough padding for circular platform crops; do not compress the full business name into the icon.",
+        "examples": [
+          {
+            "text": "El fuego reúne.",
+            "title": "Comal Vivo"
+          },
+          {
+            "text": "Place the 160-unit symbol inside a 224-unit ivory canvas. Keep the entire ring, flame and maize dot within the circular crop.",
+            "title": "Avatar sizing"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-32",
+        "title": "Social media profiles",
+        "layout": "applications",
+        "summary": "Design study: use Comal Vivo as the display name and a concise concept description. Do not invent a handle, phone number, exact address, reviews or an active messaging service.",
+        "examples": [
+          {
+            "text": "Taquería mexicana ficticia en Roma Norte, Ciudad de México. El fuego reúne. Menú y reservas de demostración.",
+            "title": "Comal Vivo"
+          },
+          {
+            "text": "Pair the headline with a generous food scene and one green service line. Keep profile text away from avatar and interface overlays.",
+            "title": "Profile cover"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-33",
+        "title": "Instagram posts",
+        "layout": "applications",
+        "summary": "Design study: use editorial compositions with one dish or one useful message. Keep names and prices together; never reuse the suadero photograph to represent another item.",
+        "examples": [
+          {
+            "text": "Un ejemplo de nuestra carta. Conoce los seis en el menú.",
+            "title": "Suadero · $40 MXN"
+          },
+          {
+            "text": "Ilustración conceptual de taco de nopal. Ver menú.",
+            "title": "Nopal · $35 MXN"
+          },
+          {
+            "text": "Use a 4:5 canvas with 48 px margins at 1080 px width. Keep image, dish name and price in one reading path, without decorative cards.",
+            "title": "Post layout"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-34",
+        "title": "Posters",
+        "layout": "applications",
+        "summary": "Design study: give the exact headline first priority, then the food and useful information. Use a green service strip at the bottom; do not add a fictitious street address or promotional discount.",
+        "examples": [
+          {
+            "text": "Comal Vivo · Roma Norte, Ciudad de México · Ubicación conceptual",
+            "title": "El fuego reúne."
+          },
+          {
+            "text": "13:00–22:00 · Inicios de reserva de 13:00 a 21:00, cada 30 minutos.",
+            "title": "Todos los días"
+          },
+          {
+            "text": "At A3, use a 72 pt headline and at least 14 pt useful details. Keep the source credit legible outside the photographic subject.",
+            "title": "Poster hierarchy"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-35",
+        "title": "T shirts and totes",
+        "layout": "applications",
+        "summary": "Design study: use the lockup at a generous scale on an ivory textile field. Preserve the complete symbol and avoid distressed printing that closes counters or breaks the open comal.",
+        "examples": [
+          {
+            "text": "Comal Vivo",
+            "title": "El fuego reúne."
+          },
+          {
+            "text": "Center a 220 mm-wide name-and-symbol composition on the tote. On a green shirt, give the full-color symbol its own ivory support.",
+            "title": "Placement"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-36",
+        "title": "Takeaway packaging",
+        "layout": "applications",
+        "summary": "Design study: explore a paper wrap without implying takeaway ordering is available. Keep the identity outside food-contact areas and leave the main panel quiet enough for readable labeling.",
+        "examples": [
+          {
+            "text": "El fuego reúne.",
+            "title": "Comal Vivo"
+          },
+          {
+            "text": "Use an ivory outer field, a green service line and one lockup. Do not print ordering instructions, delivery claims or unverified material certifications.",
+            "title": "Wrap composition"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-37",
+        "title": "Conceptual location",
+        "layout": "applications",
+        "summary": "Design study: replace pickup wayfinding with a conceptual location panel. State only Roma Norte, Ciudad de México and the supplied hours; omit maps, street numbers and pickup instructions.",
+        "examples": [
+          {
+            "text": "Ubicación conceptual · Todos los días, 13:00–22:00.",
+            "title": "Roma Norte, Ciudad de México"
+          },
+          {
+            "text": "Set the neighborhood in Bricolage 700 and hours in Source Sans 3. Use an open comal marker, not a pin on a fabricated map.",
+            "title": "Location panel"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-38",
+        "title": "Reservation controls",
+        "layout": "applications",
+        "summary": "Design study for /reservar: show Mesa, 1–8 people, date and live turns before contact fields. Use 30-minute starts from 13:00–21:00, with 16 shared places per turn in America/Mexico_City.",
+        "examples": [
+          {
+            "text": "Elige de 1 a 8 personas, una fecha y un turno disponible. Después continuaremos con tus datos.",
+            "title": "Mesa y turno"
+          },
+          {
+            "text": "Este turno ya no tiene lugares suficientes. Elige otro para continuar.",
+            "title": "Selected and unavailable"
+          },
+          {
+            "text": "Use 44 px targets, visible focus and a maize selected state. Show only server-derived availability; reject past turns and preserve inputs during errors.",
+            "title": "Control behavior"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-39",
+        "title": "Reservation summary",
+        "layout": "applications",
+        "summary": "Design study for /revision and /confirmacion: use one specification beside the service line, not a sales receipt. Review does not hold capacity; show success only after server-confirmed saving.",
+        "examples": [
+          {
+            "text": "Comprueba Mesa, fecha, hora, personas y tus datos. Revisar no aparta lugares. Guardar reserva.",
+            "title": "Revisar tu reserva"
+          },
+          {
+            "text": "Consulta el código, el estado y los datos guardados. Esta reserva no corresponde a una mesa de un local real.",
+            "title": "Reserva de demostración guardada"
+          },
+          {
+            "text": "Display the exact saved contact and optional notes. Keep Editar secondary; omit totals, payment rows and invented confirmation codes.",
+            "title": "Summary rule"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-40",
+        "title": "Reservation notebook",
+        "layout": "applications",
+        "summary": "Design study for /mis-reservas: replace rewards mechanics with a private reservation notebook. Use a readable list with date, time, people, code and status; add no points, tiers or memberships.",
+        "examples": [
+          {
+            "text": "Consulta las reservas guardadas en tu sesión. Puedes recargar la lista o abrir un detalle.",
+            "title": "Mis reservas"
+          },
+          {
+            "text": "Cuando guardes una reserva, aparecerá aquí. Reservar mesa.",
+            "title": "Aún no tienes reservas"
+          },
+          {
+            "text": "Use Recargar beside the title and Abrir detalle per record. Retain canceled entries and show only records authorized for the private session.",
+            "title": "List structure"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-41",
+        "title": "Taquería sign",
+        "layout": "applications",
+        "summary": "Design study: prioritize the exact name on a simple ivory fascia with green lettering. Keep the mark complete and legible from a distance; this is not a depiction of an existing storefront.",
+        "examples": [
+          {
+            "text": "El fuego reúne.",
+            "title": "Comal Vivo"
+          },
+          {
+            "text": "Give the name roughly two thirds of the horizontal field. Keep one symbol beside it and a clear margin equal to its safezone.",
+            "title": "Sign proportions"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-42",
+        "title": "Menu & reservation website",
+        "layout": "applications",
+        "summary": "Design study: connect /, /menu, /reservar, /revision, /confirmacion, /mis-reservas and /reserva. Keep interiors as designed as the cover. No cart, payments or messaging; saving requires Turso.",
+        "examples": [
+          {
+            "text": "Pastor $35 · Suadero $40 · Birria $55 · Nopal $35 · Quesadilla $50 · Agua de jamaica $35. Precios en MXN.",
+            "title": "Menú de ejemplo"
+          },
+          {
+            "text": "Tus datos siguen aquí. Reintenta para comprobar el estado antes de volver a guardar.",
+            "title": "No pudimos guardar tu reserva"
+          },
+          {
+            "text": "Keep the green service line across every step. Use private session access for details; if storage is unavailable, never fabricate a saved reservation.",
+            "title": "Route continuity"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-43",
+        "title": "Favicon",
+        "layout": "logo",
+        "summary": "Design study: derive favicon and app icons from the same original SVG. Preserve the geometry and ivory support; do not substitute a starter icon, initial or unrelated flame.",
+        "examples": [
+          {
+            "text": "Menú de ejemplo y reservas de demostración.",
+            "title": "Comal Vivo — El fuego reúne."
+          },
+          {
+            "text": "Use the complete mark for 16 px and 32 px favicons and larger app assets. Retain the green ring, chile flame and maize dot.",
+            "title": "Small-format family"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-44",
+        "title": "Stationery",
+        "layout": "applications",
+        "summary": "Design study: use an ivory sheet, a small top-left lockup and a single green footer rule. Keep body copy in Source Sans 3; do not invent legal identifiers or contact information.",
+        "examples": [
+          {
+            "text": "Comal Vivo imagina una carta breve y una mesa como punto de encuentro.",
+            "title": "Alrededor del comal"
+          },
+          {
+            "text": "Use 20 mm margins on A4, an 11 pt body and a 14 pt line height. Leave the footer for the concept disclosure, not fictional company details.",
+            "title": "Letterhead layout"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-45",
+        "title": "Business cards",
+        "layout": "applications",
+        "summary": "Design study: make a brand introduction card rather than a fabricated employee contact card. Put the name on one side and the conceptual neighborhood and hours on the other.",
+        "examples": [
+          {
+            "text": "Roma Norte, Ciudad de México · Ubicación conceptual · Todos los días, 13:00–22:00.",
+            "title": "Comal Vivo"
+          },
+          {
+            "text": "At 85 × 55 mm, keep 5 mm internal margins and body text at least 9 pt. Omit invented names, phone numbers, domains and QR destinations.",
+            "title": "Card layout"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-46",
+        "title": "Gathering card",
+        "layout": "applications",
+        "summary": "Design study: adapt the gift-card format into a noncommercial gathering card. It introduces the concept without monetary value, redemption codes, prepaid meals or a promised reservation.",
+        "examples": [
+          {
+            "text": "Conoce el menú de Comal Vivo y elige un turno en la demostración de reservas.",
+            "title": "Una mesa para reunirnos"
+          },
+          {
+            "text": "Use maize on the front and ivory on the reverse. Do not add a balance, expiry date or language suggesting the card grants a table.",
+            "title": "Card distinction"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-47",
+        "title": "Packaging seal",
+        "layout": "applications",
+        "summary": "Design study: use a small identity label, not a quality certification or security promise. Keep the original mark on ivory with enough clear space to survive a circular trim.",
+        "examples": [
+          {
+            "text": "El fuego reúne.",
+            "title": "Comal Vivo"
+          },
+          {
+            "text": "Use a 40 mm ivory circle with a centered 22 mm symbol. Place the name on an adjacent panel rather than wrapping tiny letters around the edge.",
+            "title": "Seal construction"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-48",
+        "title": "Guest support",
+        "layout": "applications",
+        "summary": "Design study: provide help inside the reservation flow, not a new messaging channel. Keep errors near their fields, preserve entries and make cancellation a deliberate, reversible dialog choice.",
+        "examples": [
+          {
+            "text": "Incluye de 7 a 15 dígitos. Puedes usar espacios, paréntesis, guiones y un + al inicio.",
+            "title": "Revisa tu teléfono"
+          },
+          {
+            "text": "Al confirmar, se liberarán los lugares del turno. Mantener reserva · Confirmar cancelación.",
+            "title": "¿Cancelar esta reserva?"
+          },
+          {
+            "text": "Compara las versiones y elige cuál recuperar. No reemplazaremos tus datos sin que lo decidas.",
+            "title": "Hay cambios en otra pestaña"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-49",
+        "title": "Thank you",
+        "layout": "cover",
+        "summary": "This guide presents an original identity proposed for this project, with examples of its visual and editorial use.",
+        "examples": [
+          {
+            "text": "Comal Vivo · Negocio ficticio. Ubicación y precios de ejemplo.",
+            "title": "El fuego reúne."
+          },
+          {
+            "text": "Supplied brief, plan and font files: Bricolage Grotesque and Source Sans 3, weights 400–700. No external public-identity sources were requested.",
+            "title": "Identity and type sources"
+          },
+          {
+            "text": "Pedro Sanchez · https://commons.wikimedia.org/wiki/File:Tacos_de_suadero.jpg · CC BY-SA 3.0: https://creativecommons.org/licenses/by-sa/3.0/ · No adaptation made here.",
+            "title": "Photo source supplied; not verified here"
+          }
+        ]
+      }
+    ],
+    "voice": "Español mexicano cálido, directo y hospitalario, sin caricaturizar el habla. Frases cortas y útiles: «El fuego reúne.», «Ver menú», «Reservar mesa». Diferenciar con claridad una reserva de demostración guardada de una mesa real, sin jerga técnica ni avisos repetitivos.",
+    "colors": [
+      {
+        "hex": "#FFF7DD",
+        "name": "Warm Paper",
+        "role": "background"
+      },
+      {
+        "hex": "#F2BF4B",
+        "name": "Golden Maize",
+        "role": "surface"
+      },
+      {
+        "hex": "#B72D24",
+        "name": "Chile Heat",
+        "role": "accent"
+      },
+      {
+        "hex": "#163C2D",
+        "name": "Comal Ink",
+        "role": "text"
+      },
+      {
+        "hex": "#59634E",
+        "name": "Quiet Sage",
+        "role": "muted"
+      }
+    ],
+    "origin": "proposed",
+    "markSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 160\"><path fill=\"#163C2D\" d=\"M124 40A62 62 0 1 0 124 120L112 106A44 44 0 1 1 112 54Z\"/><path fill=\"#B72D24\" d=\"M83 38C88 55 109 65 109 84C109 103 97 114 81 114C63 114 51 102 51 86C51 73 61 63 66 53C65 68 71 74 75 76C85 65 88 53 83 38Z\"/><path fill=\"#FFF7DD\" d=\"M81 81C82 90 91 94 91 101C91 107 87 111 81 111C75 111 71 107 71 101C71 94 78 91 81 81Z\"/><circle fill=\"#F2BF4B\" cx=\"132\" cy=\"80\" r=\"9\"/></svg>",
+    "sources": [
+      "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700&display=swap",
+      "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap"
+    ],
+    "version": 1,
+    "fontFaces": [
+      {
+        "url": "https://odifhpxpphpkaucgsthd.supabase.co/storage/v1/object/public/screenshots/projects/P-349LPT/brand/fonts/b56db40c26850f83ba2ebffa1f7faa01e5ee4e55ac63decee1433de520a38483.ttf",
+        "family": "Bricolage Grotesque",
+        "sha256": "b56db40c26850f83ba2ebffa1f7faa01e5ee4e55ac63decee1433de520a38483",
+        "weight": "400",
+        "originalUrl": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvRviyM0.ttf",
+        "availableWeights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ]
+      },
+      {
+        "url": "https://odifhpxpphpkaucgsthd.supabase.co/storage/v1/object/public/screenshots/projects/P-349LPT/brand/fonts/e1b454f5469f3d0d98c117651a4d15a8345ad77b50f09540b5cf61e82511b563.ttf",
+        "family": "Bricolage Grotesque",
+        "sha256": "e1b454f5469f3d0d98c117651a4d15a8345ad77b50f09540b5cf61e82511b563",
+        "weight": "500",
+        "originalUrl": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvSniyM0.ttf",
+        "availableWeights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ]
+      },
+      {
+        "url": "https://odifhpxpphpkaucgsthd.supabase.co/storage/v1/object/public/screenshots/projects/P-349LPT/brand/fonts/284891c74c258cff7233962e048d9470bfb9fc326b53dd0bca408789297c3409.ttf",
+        "family": "Bricolage Grotesque",
+        "sha256": "284891c74c258cff7233962e048d9470bfb9fc326b53dd0bca408789297c3409",
+        "weight": "600",
+        "originalUrl": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvcXlyM0.ttf",
+        "availableWeights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ]
+      },
+      {
+        "url": "https://odifhpxpphpkaucgsthd.supabase.co/storage/v1/object/public/screenshots/projects/P-349LPT/brand/fonts/913ee3631949ee1b4fb2601269412fca5775eb994d4f87be2c366c94ac123dc5.ttf",
+        "family": "Bricolage Grotesque",
+        "sha256": "913ee3631949ee1b4fb2601269412fca5775eb994d4f87be2c366c94ac123dc5",
+        "weight": "700",
+        "originalUrl": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvfzlyM0.ttf",
+        "availableWeights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ]
+      },
+      {
+        "url": "https://odifhpxpphpkaucgsthd.supabase.co/storage/v1/object/public/screenshots/projects/P-349LPT/brand/fonts/20ab9752bd19a373dba627393b6c142e6cf8fc2f219119a8e0cb1442ef679ec5.ttf",
+        "family": "Source Sans 3",
+        "sha256": "20ab9752bd19a373dba627393b6c142e6cf8fc2f219119a8e0cb1442ef679ec5",
+        "weight": "400",
+        "originalUrl": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Ky461EN.ttf",
+        "availableWeights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ]
+      },
+      {
+        "url": "https://odifhpxpphpkaucgsthd.supabase.co/storage/v1/object/public/screenshots/projects/P-349LPT/brand/fonts/bec4ffe926595df756b5a1e39a9f704debfab88055d9a157f978eb500444dd28.ttf",
+        "family": "Source Sans 3",
+        "sha256": "bec4ffe926595df756b5a1e39a9f704debfab88055d9a157f978eb500444dd28",
+        "weight": "500",
+        "originalUrl": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8KyK61EN.ttf",
+        "availableWeights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ]
+      },
+      {
+        "url": "https://odifhpxpphpkaucgsthd.supabase.co/storage/v1/object/public/screenshots/projects/P-349LPT/brand/fonts/950e66c48e5e60c9407421d0fa601047176f17e0d22a598bbd084dde45a98be2.ttf",
+        "family": "Source Sans 3",
+        "sha256": "950e66c48e5e60c9407421d0fa601047176f17e0d22a598bbd084dde45a98be2",
+        "weight": "600",
+        "originalUrl": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kxm7FEN.ttf",
+        "availableWeights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ]
+      },
+      {
+        "url": "https://odifhpxpphpkaucgsthd.supabase.co/storage/v1/object/public/screenshots/projects/P-349LPT/brand/fonts/83a72786970a93a8c48eaead886c995676d512c0ee7164138f8ea76ea847d75c.ttf",
+        "family": "Source Sans 3",
+        "sha256": "83a72786970a93a8c48eaead886c995676d512c0ee7164138f8ea76ea847d75c",
+        "weight": "700",
+        "originalUrl": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kxf7FEN.ttf",
+        "availableWeights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ]
+      }
+    ],
+    "positioning": "Propuesta original para una taquería mexicana ficticia en Roma Norte, Ciudad de México. El comal es el punto de reunión: carta clara, comida reconocible y una reserva de mesa sencilla. Ubicación y precios son ejemplos, no hechos de un negocio real.",
+    "researchStatus": "not_requested",
+    "tokenSemanticsVersion": 1
+  },
+  "textColor": "#163C2D",
+  "accentColor": "#B72D24",
+  "fontHeading": "Bricolage Grotesque",
+  "borderRadius": "0.5rem",
+  "logoImageUrl": null,
+  "primaryColor": "#B72D24",
+  "secondaryColor": "#F2BF4B",
+  "backgroundColor": "#FFF7DD"
+}

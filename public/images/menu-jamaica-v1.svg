@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320" role="img" aria-labelledby="title desc">
+<title id="title">Agua de jamaica</title>
+<desc id="desc">Dibujo original de un vaso alto de agua roja de jamaica con hielo y flores de hibisco a su lado.</desc>
+<rect width="480" height="320" fill="#FFF7DD"/>
+<ellipse cx="242" cy="277" rx="117" ry="20" fill="#163C2D" opacity=".12"/>
+<path d="M172 62L187 264Q240 289 293 264L308 62Z" fill="#FFF7DD" stroke="#163C2D" stroke-width="4" stroke-linejoin="round"/>
+<path d="M179 103L191 259Q240 279 289 259L301 103Z" fill="#B72D24"/>
+<ellipse cx="240" cy="103" rx="61" ry="17" fill="#B72D24" stroke="#163C2D" stroke-width="3"/>
+<path d="M198 99L220 88L235 109L213 121ZM249 96L274 93L281 116L255 119Z" fill="#FFF7DD" fill-opacity=".65" stroke="#FFF7DD" stroke-width="2"/>
+<path d="M228 129L249 124L258 147L236 153Z" fill="#FFF7DD" opacity=".35"/>
+<ellipse cx="240" cy="62" rx="68" ry="19" fill="none" stroke="#163C2D" stroke-width="4"/>
+<path d="M195 137L202 237" stroke="#FFF7DD" stroke-width="6" stroke-linecap="round" opacity=".65"/>
+<path d="M276 147L271 234" stroke="#FFF7DD" stroke-width="3" stroke-linecap="round" opacity=".35"/>
+<g fill="#B72D24" stroke="#163C2D" stroke-width="2">
+<path d="M119 258Q83 250 94 231Q108 220 123 245Q117 211 139 218Q156 228 133 249Q166 232 170 253Q167 273 138 259Q152 286 133 290Q112 288 124 264Q94 282 87 265Q85 250 119 258Z"/>
+</g>
+<circle cx="128" cy="255" r="7" fill="#F2BF4B"/>
+<path d="M327 256Q344 229 371 236Q360 262 327 256ZM326 256L351 246" fill="#163C2D" stroke="#163C2D" stroke-width="3"/>
+<g fill="#FFF7DD" stroke="#163C2D" stroke-width="1.5"><path d="M314 160Q306 173 314 175Q322 173 314 160Z"/><path d="M168 199Q161 211 168 213Q175 211 168 199Z"/></g>
+</svg>

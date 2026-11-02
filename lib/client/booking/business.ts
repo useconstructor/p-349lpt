@@ -1,0 +1,44 @@
+import { BookingError, type BookingController } from './controller';
+import type { Catalog, Reservation, Resource } from './types';
+
+export type PublicOfferItem = { id: string; nombre: string; descripcion: string; precio: number; recursos: Resource[] };
+export type BusinessCatalog = Catalog & { oferta?: PublicOfferItem[] };
+
+function validResource(value: unknown): value is Resource {
+  if (!value || typeof value !== 'object') return false;
+  const r = value as Resource;
+  return typeof r.id === 'string' && !!r.id && Number.isInteger(r.version) && r.version > 0 && typeof r.url === 'string' && r.url.startsWith('/') && !r.url.startsWith('//') && typeof r.sha256 === 'string' && /^[a-f\d]{64}$/i.test(r.sha256) && typeof r.alt === 'string' && !!r.alt.trim() && Number.isInteger(r.width) && Number(r.width) > 0 && Number.isInteger(r.height) && Number(r.height) > 0;
+}
+
+export async function fetchPublicCatalog(): Promise<BusinessCatalog> {
+  const response = await fetch('/api/catalogo', { credentials: 'same-origin', cache: 'no-store' });
+  const envelope = await response.json();
+  if (!response.ok || envelope.ok !== true) throw new Error(envelope.error?.message || 'No pudimos cargar la carta. Reintenta en un momento.');
+  const c = envelope.data as BusinessCatalog;
+  if (!c || !Number.isInteger(c.version) || !Number.isInteger(c.presentacionVersion) || typeof c.moneda !== 'string' || typeof c.zonaHoraria !== 'string' || !c.politica || !Array.isArray(c.opciones) || c.opciones.some(o => !o || typeof o.id !== 'string' || typeof o.nombre !== 'string' || typeof o.descripcion !== 'string' || !Number.isFinite(o.precio) || !Array.isArray(o.recursos) || !o.recursos.every(validResource))) throw new Error('La carta no está disponible en este momento.');
+  return c;
+}
+
+export async function fetchPublicOffer(): Promise<{ moneda: string; items: PublicOfferItem[] }> {
+  const catalog = await fetchPublicCatalog();
+  // Comal Vivo books tables; food must never be inferred from those options.
+  if (!Array.isArray(catalog.oferta)) throw new Error('No pudimos leer los platillos de la carta.');
+  if (catalog.oferta.some(o => !o || typeof o.id !== 'string' || typeof o.nombre !== 'string' || typeof o.descripcion !== 'string' || !Number.isFinite(o.precio) || o.precio < 0 || !Array.isArray(o.recursos) || !o.recursos.length || !o.recursos.every(validResource))) throw new Error('No pudimos comprobar la carta completa.');
+  return { moneda: catalog.moneda, items: catalog.oferta };
+}
+
+export const bookingHref = (id: string) => '/reservar?' + new URLSearchParams({ opcion: id });
+export const confirmationHref = (record: Reservation) => '/confirmacion?' + new URLSearchParams({ id: record.id });
+export const detailHref = (record: Reservation) => '/detalle-reserva?' + new URLSearchParams({ id: record.id });
+export async function loadOwnedCode(controller: BookingController, codigo: string): Promise<Reservation> {
+  const rows = await controller.loadReservations();
+  const record = rows.find(row => row.codigo === codigo.trim());
+  if (!record) throw new BookingError('NOT_FOUND', 'No encontramos esa reserva en esta sesión.', 404);
+  return controller.loadRecord(record.id);
+}
+export const formatDate = (value: string) => /^\d{4}-\d{2}-\d{2}$/.test(value) && Number.isFinite(Date.parse(value + 'T12:00:00Z')) ? new Intl.DateTimeFormat('es-MX', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(value + 'T12:00:00Z')) : value || 'Fecha por elegir';
+export const localToday = (zone: string) => {
+  const parts = new Intl.DateTimeFormat('en-CA', { timeZone: zone, year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date());
+  const get = (type: string) => parts.find(p => p.type === type)?.value;
+  return `${get('year')}-${get('month')}-${get('day')}`;
+};

@@ -1,0 +1,13 @@
+'use client';
+import {useEffect,useState} from 'react';
+import Link from 'next/link';
+import {BrandPage,BrandNotice} from '@/components/brand';
+import {fetchPublicOffer,bookingHref} from '@/lib/client/booking/business';
+import {VerifiedBookingMedia} from '@/lib/client/booking/presentation';
+import {Action,textLinkClass} from '@/components/booking/primitives';
+type Offer = Awaited<ReturnType<typeof fetchPublicOffer>>;
+export default function MenuPage(){
+ const [data,setData]=useState<Offer|null>(null),[error,setError]=useState(''),[attempt,setAttempt]=useState(0);
+ useEffect(()=>{let live=true;setData(null);setError('');fetchPublicOffer().then(value=>{if(value.moneda!=='MXN'||value.items.length!==6)throw new Error('No pudimos comprobar la carta completa.');if(live)setData(value);}).catch(e=>{if(live)setError(e instanceof Error?e.message:'No pudimos consultar la carta.');});return()=>{live=false;};},[attempt]);
+ return <BrandPage title="Seis buenos antojos." subtitle="Del comal y para acompañar."><p className="mb-5">Precios de ejemplo en MXN · ilustraciones originales de ejemplo, no fotografías. La mesa se reserva aparte, sin cobro.</p>{!data&&!error&&<p role="status">Consultando la carta…</p>}{error&&<BrandNotice kind="error" title="La carta no está disponible" action={<Action onClick={()=>setAttempt(n=>n+1)}>Reintentar carta</Action>}><p>{error}</p></BrandNotice>}{data&&<ol>{data.items.map((dish,i)=><li key={dish.id} className="grid grid-cols-[112px_1fr] items-center gap-4 border-t border-[#163C2D]/40 py-5 sm:grid-cols-[240px_1fr] sm:gap-8"><VerifiedBookingMedia resource={dish.recursos[0]} className="h-auto w-full" renderPending={<p role="status">Cargando ilustración…</p>} renderError={({retry})=><div role="alert"><p>Ilustración no disponible.</p><button className={textLinkClass} onClick={retry}>Reintentar imagen</button></div>}/><div><p className="text-sm text-[#59634E]">0{i+1} / Del comal</p><div className="flex flex-wrap items-baseline justify-between gap-2"><h2 className="font-[family-name:var(--brand-font-heading)] text-3xl font-bold italic">{dish.nombre}</h2><p className="text-xl tabular-nums">${dish.precio} <span className="text-sm">{data.moneda}</span></p></div><p className="mt-2">{dish.descripcion}</p></div></li>)}</ol>}<div className="border-t-2 border-[#163C2D] py-6"><h2 className="font-[family-name:var(--brand-font-heading)] text-3xl font-bold">El antojo reúne.</h2><p className="my-3">Diario 13:00–22:00. Reservas de 1 a 8 personas; turnos de 30 minutos hasta las 21:00, con 16 lugares compartidos por turno. Hora de Ciudad de México.</p><Link href={bookingHref('mesa')} className={textLinkClass}>Reservar mesa ↗</Link></div></BrandPage>;
+}
