@@ -24,7 +24,7 @@ export function ContextMedia({ resource, variant, onReady, className }: { resour
   const compact = variant === 'compact';
   const frame = compact ? 'h-[104px] w-full sm:h-[128px]' : variant === 'ritual' ? 'aspect-[4/3] w-full' : 'aspect-[4/3] w-full md:aspect-[16/10]';
   return <figure className={cn('min-w-0', className)}>
-    <VerifiedBookingMedia resource={resource} containerClassName={cn('relative grid place-items-center bg-[var(--brand-surface)]', frame)} className="h-full w-full object-cover object-center"
+    <VerifiedBookingMedia resource={resource} containerClassName={cn('relative grid overflow-hidden rounded-t-[42%_18%] place-items-center bg-[var(--brand-surface)]', frame)} className="h-full w-full object-cover object-center"
       onReady={(current, ready) => { if (current) onReady?.(current, ready); }}
       onDispose={current => { if (current) onReady?.(current, false); }}
       renderPending={<span role="status" className="p-3 text-sm">Cargando fotografía…</span>}
