@@ -37,8 +37,21 @@ export async function loadOwnedCode(controller: BookingController, codigo: strin
   return controller.loadRecord(record.id);
 }
 export const formatDate = (value: string) => /^\d{4}-\d{2}-\d{2}$/.test(value) && Number.isFinite(Date.parse(value + 'T12:00:00Z')) ? new Intl.DateTimeFormat('es-MX', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(value + 'T12:00:00Z')) : value || 'Fecha por elegir';
-export const localToday = (zone: string) => {
-  const parts = new Intl.DateTimeFormat('en-CA', { timeZone: zone, year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date());
+export const localToday = (zone: string, now = new Date()) => {
+  const parts = new Intl.DateTimeFormat('en-CA', { timeZone: zone, year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(now);
   const get = (type: string) => parts.find(p => p.type === type)?.value;
   return `${get('year')}-${get('month')}-${get('day')}`;
 };
+
+// Start on the next scheduled day, without changing an existing saved draft.
+export function nextScheduledDate(catalog: Catalog, now = new Date()): string {
+  const today = localToday(catalog.zonaHoraria, now);
+  const clock = new Intl.DateTimeFormat('en-GB', { timeZone: catalog.zonaHoraria, hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).format(now);
+  const date = new Date(today + 'T12:00:00Z');
+  for (let offset = 0; offset < 8; offset++) {
+    const day = date.toISOString().slice(0, 10);
+    if (catalog.politica.diasSemana.includes(date.getUTCDay()) && catalog.politica.horas.some(time => offset > 0 || time > clock)) return day;
+    date.setUTCDate(date.getUTCDate() + 1);
+  }
+  return today;
+}
