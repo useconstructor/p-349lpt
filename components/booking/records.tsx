@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { BrandPage, BrandNotice, WorkshopEdge } from '@/components/brand';
+import { ComalMark, BrandPage, BrandNotice, WorkshopEdge } from '@/components/brand';
 import { useBookingController } from '@/lib/client/booking/use-booking-controller';
 import { useNativeBookingDialog } from '@/lib/client/booking/presentation';
 import { detailHref, formatDate, loadOwnedCode } from '@/lib/client/booking/business';
@@ -103,7 +103,7 @@ export function PrivateRecords({ mode, id = '', codigo = '' }: { mode: 'history'
       {record && <div data-booking-record-id={record.id} data-booking-read-state={verified ? 'verified' : loading ? 'refreshing' : 'stale'}>
         <section aria-label="Resumen de tu reserva" className="border-y-2 border-[var(--brand-text)] py-6 sm:py-8">
           {verified ? <p role="status" className="mb-4 text-base font-semibold text-[var(--brand-primary)]">{record.estado === 'activa' ? 'Tu mesa está reservada.' : 'Esta reserva está cancelada.'}</p> : <p className="mb-4 font-semibold text-[var(--brand-muted)]">Tu mesa en la última lectura verificada</p>}
-          <div className="flex items-start justify-between gap-4"><h2 className="font-[family-name:var(--brand-font-heading)] text-4xl font-black italic leading-none sm:text-5xl">{record.opcionNombre}</h2><svg aria-hidden="true" viewBox="0 0 64 64" fill="none" className="h-12 w-12 shrink-0 text-[var(--brand-primary)]"><path d="M25 21c-7-8 8-9 3-17M38 21c-6-7 8-10 4-16" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/><ellipse cx="32" cy="37" rx="25" ry="13" stroke="currentColor" strokeWidth="2"/><path d="M7 37v7c0 8 11 14 25 14s25-6 25-14v-7M2 37h5m50 0h5" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/></svg></div>
+          <div className="flex items-start justify-between gap-4"><h2 className="font-[family-name:var(--brand-font-heading)] text-4xl font-black italic leading-none sm:text-5xl">{record.opcionNombre}</h2><ComalMark className="h-12 w-12 shrink-0 text-[var(--brand-primary)]" /></div>
           <p className="mt-4 font-[family-name:var(--brand-font-heading)] text-2xl font-bold leading-tight sm:text-3xl">{formatDate(record.fecha)}</p>
           <p className="mt-2 text-2xl font-semibold tabular-nums">{record.hora} <span className="px-1 text-[var(--brand-primary)]">·</span> {record.personas} personas</p>
           <p className="mt-2 text-sm text-[var(--brand-muted)]">Hora de Ciudad de México · {record.duracionMinutos} minutos</p>
