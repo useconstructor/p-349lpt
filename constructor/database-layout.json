@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "positions": {
+    "booking_borradores": {
+      "x": 92.80620155038761,
+      "y": 83.75193798449612
+    },
+    "booking_catalogos": {
+      "x": 440,
+      "y": 0
+    },
+    "booking_operaciones": {
+      "x": 880,
+      "y": 0
+    },
+    "booking_reservas": {
+      "x": 0,
+      "y": 380
+    },
+    "booking_sesiones": {
+      "x": 440,
+      "y": 380
+    }
+  }
+}
