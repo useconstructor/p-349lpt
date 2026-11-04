@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "views": {
+    "/": {
+      "name": "Principal"
+    }
+  },
+  "edits": []
+}
