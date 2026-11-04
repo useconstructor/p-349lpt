@@ -2,7 +2,7 @@
   "version": 1,
   "views": {
     "/": {
-      "name": "Principal"
+      "name": "Principal y reservas"
     }
   },
   "edits": []
