@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "tables": {
+    "booking_borradores": {
+      "columns": [
+        "owner",
+        "draft",
+        "pending",
+        "retained",
+        "revision",
+        "last_valid"
+      ],
+      "hidden": [
+        "owner"
+      ],
+      "pageSize": 25
+    }
+  }
+}
