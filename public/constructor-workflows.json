@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "workflows": [
+    {
+      "id": "consultar_catalogo",
+      "name": "Consultar catálogo",
+      "description": "",
+      "endpoint": "/api/catalogo",
+      "method": "GET",
+      "input": {}
+    }
+  ]
+}
