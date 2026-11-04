@@ -1,0 +1,1 @@
+(()=>{fetch('/constructor-settings.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(s=>{if(s?.version!==1)return;document.title=s.title;document.documentElement.lang=s.language;let m=document.querySelector('meta[name="description"]');if(!m){m=document.createElement('meta');m.name='description';document.head.append(m)}m.content=s.description}).catch(()=>{})})();
