@@ -3,7 +3,7 @@
   "workflows": [
     {
       "id": "consultar_catalogo",
-      "name": "Consultar catálogo",
+      "name": "Ver menú y experiencias",
       "description": "",
       "endpoint": "/api/catalogo",
       "method": "GET",
