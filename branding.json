@@ -6,7 +6,7 @@
   "accentColor": "#B72D24",
   "fontHeading": "Bricolage Grotesque",
   "fontBody": "Source Sans 3",
-  "borderRadius": "0.5rem",
+  "borderRadius": "8px",
   "logoText": "Comal Vivo",
   "tone": "energetic",
   "logoImageUrl": null,

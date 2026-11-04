@@ -60,7 +60,7 @@
   --color-secondary-foreground: oklch(0.3236 0.0514 164.79);
   --color-muted-foreground: oklch(0.3236 0.0514 164.79);
   --color-accent-foreground: oklch(0.3236 0.0514 164.79);
-  --brand-radius: 0.5rem !important;
+  --brand-radius: 8px !important;
   --background: oklch(0.9756 0.0350 92.82);
   --card: oklch(0.9756 0.0350 92.82);
   --popover: oklch(0.9756 0.0350 92.82);
@@ -68,7 +68,7 @@
   --card-foreground: oklch(0.3236 0.0514 164.79);
   --primary: oklch(0.4822 0.1691 27.86);
   --accent: oklch(0.5151 0.1761 28.66);
-  --radius: 0.5rem;
+  --radius: 8px;
 }
 h1, h2, h3, h4, h5, h6 { font-family: var(--brand-font-heading) !important; }
 body {
