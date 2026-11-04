@@ -1,7 +1,15 @@
 {
-  "tone": "energetic",
+  "primaryColor": "#A92520",
+  "secondaryColor": "#F2BF4B",
+  "backgroundColor": "#FFF7DD",
+  "textColor": "#163C2D",
+  "accentColor": "#B72D24",
+  "fontHeading": "Bricolage Grotesque",
   "fontBody": "Source Sans 3",
+  "borderRadius": "8px",
   "logoText": "Comal Vivo",
+  "tone": "energetic",
+  "logoImageUrl": null,
   "brandbook": {
     "motif": "El borde del comal se convierte en una línea de servicio verde con un marcador circular abierto. Agrupa controles, selección y resultado en un borde compartido; el maíz señala la elección activa. No usar óvalos gigantes vacíos, sellos de éxito inventados ni ilustraciones de asientos que sugieran capacidad física no verificada.",
     "pages": [
@@ -1010,13 +1018,5 @@
     "positioning": "Propuesta original para una taquería mexicana ficticia en Roma Norte, Ciudad de México. El comal es el punto de reunión: carta clara, comida reconocible y una reserva de mesa sencilla. Ubicación y precios son ejemplos, no hechos de un negocio real.",
     "researchStatus": "not_requested",
     "tokenSemanticsVersion": 1
-  },
-  "textColor": "#163C2D",
-  "accentColor": "#B72D24",
-  "fontHeading": "Bricolage Grotesque",
-  "borderRadius": "0.5rem",
-  "logoImageUrl": null,
-  "primaryColor": "#B72D24",
-  "secondaryColor": "#F2BF4B",
-  "backgroundColor": "#FFF7DD"
+  }
 }

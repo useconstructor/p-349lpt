@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "workflows": [
+    {
+      "id": "consultar_catalogo",
+      "name": "Ver menú y experiencias",
+      "description": "",
+      "endpoint": "/api/catalogo",
+      "method": "GET",
+      "input": {}
+    }
+  ]
+}

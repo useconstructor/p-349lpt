@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "canvas": {
+    "hidden": [
+      "tablet"
+    ],
+    "frames": false,
+    "compact": true
+  },
+  "views": {
+    "/": {
+      "name": "Principal y reservas"
+    }
+  },
+  "edits": [
+    {
+      "path": "/",
+      "selector": "body:nth-of-type(1) > div:nth-of-type(2) > main:nth-of-type(1) > section:nth-of-type(1) > h1:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "reúne a todos.",
+      "attributes": {}
+    }
+  ]
+}

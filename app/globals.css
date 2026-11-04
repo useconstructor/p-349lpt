@@ -35,3 +35,45 @@
 @font-face { font-family: "Fraunces Comal"; src: url("/fonts/fraunces-normal.woff2") format("woff2"); font-style: normal; font-weight: 700 900; font-display: swap; }
 @font-face { font-family: "Fraunces Comal"; src: url("/fonts/fraunces-italic.woff2") format("woff2"); font-style: italic; font-weight: 700 900; font-display: swap; }
 @theme { --font-serif: "Fraunces Comal", Georgia, serif; }
+
+/* __branding-overrides-start__ */
+@font-face { font-family:"Bricolage Grotesque"; src:url("https://odifhpxpphpkaucgsthd.supabase.co/storage/v1/object/public/screenshots/projects/P-349LPT/brand/fonts/b56db40c26850f83ba2ebffa1f7faa01e5ee4e55ac63decee1433de520a38483.ttf"); font-weight:400; font-style:normal; font-display:swap; }
+@font-face { font-family:"Bricolage Grotesque"; src:url("https://odifhpxpphpkaucgsthd.supabase.co/storage/v1/object/public/screenshots/projects/P-349LPT/brand/fonts/e1b454f5469f3d0d98c117651a4d15a8345ad77b50f09540b5cf61e82511b563.ttf"); font-weight:500; font-style:normal; font-display:swap; }
+@font-face { font-family:"Bricolage Grotesque"; src:url("https://odifhpxpphpkaucgsthd.supabase.co/storage/v1/object/public/screenshots/projects/P-349LPT/brand/fonts/284891c74c258cff7233962e048d9470bfb9fc326b53dd0bca408789297c3409.ttf"); font-weight:600; font-style:normal; font-display:swap; }
+@font-face { font-family:"Bricolage Grotesque"; src:url("https://odifhpxpphpkaucgsthd.supabase.co/storage/v1/object/public/screenshots/projects/P-349LPT/brand/fonts/913ee3631949ee1b4fb2601269412fca5775eb994d4f87be2c366c94ac123dc5.ttf"); font-weight:700; font-style:normal; font-display:swap; }
+@font-face { font-family:"Source Sans 3"; src:url("https://odifhpxpphpkaucgsthd.supabase.co/storage/v1/object/public/screenshots/projects/P-349LPT/brand/fonts/20ab9752bd19a373dba627393b6c142e6cf8fc2f219119a8e0cb1442ef679ec5.ttf"); font-weight:400; font-style:normal; font-display:swap; }
+@font-face { font-family:"Source Sans 3"; src:url("https://odifhpxpphpkaucgsthd.supabase.co/storage/v1/object/public/screenshots/projects/P-349LPT/brand/fonts/bec4ffe926595df756b5a1e39a9f704debfab88055d9a157f978eb500444dd28.ttf"); font-weight:500; font-style:normal; font-display:swap; }
+@font-face { font-family:"Source Sans 3"; src:url("https://odifhpxpphpkaucgsthd.supabase.co/storage/v1/object/public/screenshots/projects/P-349LPT/brand/fonts/950e66c48e5e60c9407421d0fa601047176f17e0d22a598bbd084dde45a98be2.ttf"); font-weight:600; font-style:normal; font-display:swap; }
+@font-face { font-family:"Source Sans 3"; src:url("https://odifhpxpphpkaucgsthd.supabase.co/storage/v1/object/public/screenshots/projects/P-349LPT/brand/fonts/83a72786970a93a8c48eaead886c995676d512c0ee7164138f8ea76ea847d75c.ttf"); font-weight:700; font-style:normal; font-display:swap; }
+:root {
+  --brand-background: #FFF7DD !important;
+  --brand-surface: #F2BF4B !important;
+  --brand-primary: #A92520 !important;
+  --brand-accent: #B72D24 !important;
+  --brand-text: #163C2D !important;
+  --brand-font-heading: "Bricolage Grotesque", sans-serif !important;
+  --brand-font-body: "Source Sans 3", sans-serif !important;
+  --color-background: oklch(0.9756 0.0350 92.82);
+  --color-foreground: oklch(0.3236 0.0514 164.79);
+  --color-card-foreground: oklch(0.3236 0.0514 164.79);
+  --color-primary-foreground: oklch(0.3236 0.0514 164.79);
+  --color-secondary-foreground: oklch(0.3236 0.0514 164.79);
+  --color-muted-foreground: oklch(0.3236 0.0514 164.79);
+  --color-accent-foreground: oklch(0.3236 0.0514 164.79);
+  --brand-radius: 8px !important;
+  --background: oklch(0.9756 0.0350 92.82);
+  --card: oklch(0.9756 0.0350 92.82);
+  --popover: oklch(0.9756 0.0350 92.82);
+  --foreground: oklch(0.3236 0.0514 164.79);
+  --card-foreground: oklch(0.3236 0.0514 164.79);
+  --primary: oklch(0.4822 0.1691 27.86);
+  --accent: oklch(0.5151 0.1761 28.66);
+  --radius: 8px;
+}
+h1, h2, h3, h4, h5, h6 { font-family: var(--brand-font-heading) !important; }
+body {
+  background: #FFF7DD !important;
+  color: #163C2D !important;
+  font-family: var(--brand-font-body) !important;
+}
+/* __branding-overrides-end__ */
