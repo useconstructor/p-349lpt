@@ -10,9 +10,7 @@
         "revision",
         "last_valid"
       ],
-      "hidden": [
-        "owner"
-      ],
+      "hidden": [],
       "pageSize": 50
     }
   }
