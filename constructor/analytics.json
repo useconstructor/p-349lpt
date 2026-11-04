@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "days": "7",
-  "metric": "pageviews",
+  "days": "30",
+  "metric": "visitors",
   "breakdowns": [
     "path",
     "referrer",
